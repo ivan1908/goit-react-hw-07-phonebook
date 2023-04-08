@@ -45,7 +45,7 @@ export const contactsReducer = createSlice({
 }
 );
 
-export const rootReducer = combineReducers({
-  contacts: contactsReducer.reducer,
-  filter: filterSlice.reducer,
-});
+// export const rootReducer = combineReducers({
+//   contacts: contactsReducer.reducer,
+//   filter: filterSlice.reducer,
+// });
